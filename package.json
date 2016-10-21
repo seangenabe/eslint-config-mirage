@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-mirage",
+  "version": "1.0.0-0",
+  "description": "Another ESLint config. Don't be disillusioned, JavaScript is full of wonder.",
+  "license": "MIT",
+  "repository": "seangenabe/eslint-config-mirage",
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "keywords": [
+    "check",
+    "checker",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "lint",
+    "linter"
+  ],
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.20.0",
+    "eslint-plugin-flowtype-errors": "^1.4.1",
+    "eslint-plugin-unicorn": "^1.0.0"
+  }
+}
