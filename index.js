@@ -1,8 +1,7 @@
 module.exports = {
   "parser": "babel-eslint",
   "plugins": [
-    "babel",
-    "unicorn"
+    "babel"
   ],
   "env": {
     "node": true,
@@ -169,8 +168,6 @@ module.exports = {
     "require-yield": 2,
     "rest-spread-spacing": 2,
     "yield-star-spacing": [2, "after"],
-    "unicorn/number-literal-case": 2,
-    "unicorn/no-array-instanceof": 2,
     "babel/func-params-comma-dangle": 2,
     "babel/flow-object-type": [2, "comma"],
     "babel/no-await-in-loop": 1
