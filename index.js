@@ -94,7 +94,7 @@ module.exports = {
     "no-shadow-restricted-names": 2,
     "no-undef": 2,
     "no-unused-vars": 1,
-    "no-use-before-define": 1,
+    "no-use-before-define": [1, { "classes": false, "functions": false }],
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
     "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
