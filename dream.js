@@ -6,6 +6,7 @@ module.exports = {
   "extends": "eslint-config-mirage",
   "rules": {
     "flowtype/boolean-style": [2, "boolean"],
+    "flowtype/define-flow-type": 2,
     "flowtype/delimiter-dangle": 2,
     "flowtype/generic-spacing": 2,
     "flowtype/no-dupe-keys": 2,
