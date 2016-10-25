@@ -136,7 +136,8 @@ module.exports = {
     "operator-assignment": 2,
     "operator-linebreak": [1, "after", {
         "overrides": {
-          "?": "before"
+          "?": "before",
+          ":": "before"
         }
       }
     ],
