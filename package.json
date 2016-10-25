@@ -20,7 +20,7 @@
   "dependencies": {
     "babel-eslint": "^7.0.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.20.0",
+    "eslint-plugin-flowtype": "^2.23.1",
     "eslint-plugin-flowtype-errors": "^1.4.1"
   }
 }
