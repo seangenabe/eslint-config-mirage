@@ -15,7 +15,7 @@
     "linter"
   ],
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": ">=3.9.1"
   },
   "dependencies": {
     "babel-eslint": "^7.0.0",
