@@ -147,7 +147,7 @@ module.exports = {
     "space-in-parens": 2,
     "space-infix-ops": 2,
     "space-unary-ops": [2, { "words": true, "nonwords": false }],
-    "spaced-comment": 2,
+    "spaced-comment": 1,
     "unicode-bom": 2,
     "arrow-spacing": 2,
     "constructor-super": 2,
