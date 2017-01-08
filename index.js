@@ -93,7 +93,7 @@ module.exports = {
     "no-restricted-globals": 2,
     "no-shadow-restricted-names": 2,
     "no-undef": 2,
-    "no-unused-vars": 1,
+    "no-unused-vars": [1, { "varsIgnorePattern": "^_|unused|^_unused" }],
     "no-use-before-define": [1, { "classes": false, "functions": false }],
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
