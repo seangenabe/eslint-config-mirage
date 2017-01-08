@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mirage",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Another ESLint config. Don't be disillusioned, JavaScript is full of wonder.",
   "license": "MIT",
   "repository": "seangenabe/eslint-config-mirage",
