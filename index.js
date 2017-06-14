@@ -35,6 +35,16 @@ module.exports = {
     "eqeqeq": [2, "allow-null"],
     "func-call-spacing": 2,
     "guard-for-in": 1,
+    "indent": [
+      1,
+      2,
+      {
+        "SwitchCase": 1,
+        "MemberExpression": 1,
+        "ArrayExpression": 1,
+        "ObjectExpression": 1
+      }
+    ],
     "key-spacing": 2,
     "keyword-spacing": 2,
     "max-depth": 2,
@@ -59,6 +69,7 @@ module.exports = {
     "no-case-declarations": 2,
     "no-catch-shadow": 2,
     "no-class-assign": 2,
+    "no-compare-neg-zero": 2,
     "no-const-assign": 2,
     "no-constant-condition": [2, { "checkLoops": false }],
     "no-debugger": 2,
