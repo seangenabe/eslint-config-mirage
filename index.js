@@ -1,23 +1,18 @@
 module.exports = {
-  "parser": "babel-eslint",
-  "plugins": [
-    "babel"
-  ],
+  "ecmaVersion": "2016",
   "env": {
     "node": true,
     "browser": true,
     "es6": true
   },
   "ecmaFeatures": {
-    "modules": false
+    "impliedStrict": true
   },
   "rules": {
     "array-bracket-spacing": [2, "never"],
     "array-callback-return": 2,
+    "arrow-parens": [2, "as-needed"],
     "arrow-spacing": 2,
-    "babel/flow-object-type": [2, "comma"],
-    "babel/func-params-comma-dangle": 2,
-    "babel/no-await-in-loop": 1,
     "block-scoped-var": 1,
     "block-spacing": [2, "always"],
     "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
@@ -34,6 +29,7 @@ module.exports = {
     "eol-last": 2,
     "eqeqeq": [2, "allow-null"],
     "func-call-spacing": 2,
+    "generator-star-spacing": [2, "after"],
     "guard-for-in": 1,
     "indent": [
       1,
@@ -65,6 +61,7 @@ module.exports = {
     "new-parens": 2,
     "no-alert": 1,
     "no-array-constructor": 2,
+    "no-await-in-loop": 1,
     "no-caller": 2,
     "no-case-declarations": 2,
     "no-catch-shadow": 2,
