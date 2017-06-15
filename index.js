@@ -1,12 +1,14 @@
 module.exports = {
-  "ecmaVersion": "2016",
+  "parserOptions": {
+    "ecmaVersion": "2016",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    },
+  },
   "env": {
     "node": true,
     "browser": true,
     "es6": true
-  },
-  "ecmaFeatures": {
-    "impliedStrict": true
   },
   "rules": {
     "array-bracket-spacing": [2, "never"],
