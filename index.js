@@ -173,7 +173,11 @@ module.exports = {
     "rest-spread-spacing": 2,
     "semi": [2, "never"],
     "semi-spacing": 2,
-    "space-before-function-paren": [2, "never"],
+    "space-before-function-paren": [2, {
+      "asyncArrow": "always",
+      "named": "never",
+      "anonymous": "never"
+    }],
     "space-in-parens": 2,
     "space-infix-ops": 2,
     "space-unary-ops": [2, { "nonwords": false, "words": true }],
